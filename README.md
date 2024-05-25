@@ -53,7 +53,7 @@ The backend will be running on http://localhost:5000.
 
 2. **Install the dependencies:**
    ```bash
-   npm i or npm i force
+   npm i or npm i --force
 
 3. **Start the React app:**
    ```bash
