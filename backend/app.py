@@ -30,6 +30,7 @@ def detect_fault():
 
 
 @app.route('/detect2', methods=['POST'])
+@cross_origin(supports_credentials=True)
 def detect_fault2():
     if 'file' not in request.files:
         return jsonify({'error': 'No file part'})
