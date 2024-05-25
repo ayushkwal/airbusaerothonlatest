@@ -14,7 +14,8 @@ model2=load_model('section_finalll.h5')# change model location
 #     image = np.expand_dims(image, axis=0)
 #     return (image)
 def scale_resize_image(image):
-    
+    if image.mode == 'RGBA':
+        image = image.convert('RGB')
     image = tf.image.convert_image_dtype(image, tf.float32) 
     image = tf.image.resize(image, (64,64)) 
     image=image/255.0
