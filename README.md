@@ -32,19 +32,14 @@ The Aircraft Fault Detection application allows users to upload aircraft images 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ayushkwal/Aerothon60.git
-   cd Aerothon60
+   git clone https://github.com/your-username/aircraft-fault-detection.git
+   cd aircraft-fault-detection
 
-2. **Set up a virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-3. **Install the required packages:**
+2. **Install the required packages:**
    ```bash
    pip install -r requirements.txt
 
-4. **Run the Flask app:**
+3. **Run the Flask app:**
    ```bash
    python app.py
 
@@ -58,7 +53,7 @@ The backend will be running on http://localhost:5000.
 
 2. **Install the dependencies:**
    ```bash
-   npm install
+   npm i or npm i force
 
 3. **Start the React app:**
    ```bash
@@ -68,18 +63,12 @@ The frontend will be running on http://localhost:3000.
 
 ## Usage
 - Navigate to http://localhost:3000 in your web browser.
-- Use the navigation bar to go to the "Fault Detection" page.
+- Use the navigation bar to go to the "Fault Analyzer" page.
 - Upload an image of an aircraft.
-- View the fault detection result displayed on the page.
-
-## Snapshots
--HomePage(Desktop View)
-![image](https://github.com/ayushkwal/Aerothon60/assets/70058068/8558ff25-9470-46a7-b769-fdd9315ab798)
-
-
--Model1(Fault Detection)
-<img width="944" alt="image" src="https://github.com/ayushkwal/Aerothon60/assets/70058068/3f3cad70-7c91-454b-9c52-080353048fff">
-
+- View the Fault Analyzer result displayed on the page.
+- Use the navigation bar to go to the "Defect Region Detector" page.
+- Upload an image of an aircraft.
+- View the Defect Region Detector result displayed on the page.
 
 
 
